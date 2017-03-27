@@ -1,0 +1,1749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231495CD1E7F66400042475A /* sale.png in Resources */ = {isa = PBXBuildFile; fileRef = 231495CC1E7F66400042475A /* sale.png */; };
+		231495CF1E7F67990042475A /* recommendList.png in Resources */ = {isa = PBXBuildFile; fileRef = 231495CE1E7F67990042475A /* recommendList.png */; };
+		231495D11E7F681D0042475A /* RZYSDietarySaleRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495D01E7F681D0042475A /* RZYSDietarySaleRecordViewController.swift */; };
+		231495D31E7F70270042475A /* RZYSDietarySaleRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495D21E7F70270042475A /* RZYSDietarySaleRecordTableViewCell.swift */; };
+		231495D51E7F71F40042475A /* RZYSDietarySaleRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495D41E7F71F40042475A /* RZYSDietarySaleRecordModel.swift */; };
+		231495D71E7F76EA0042475A /* RZYSMyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495D61E7F76EA0042475A /* RZYSMyOrderTableViewCell.swift */; };
+		231495D91E7F79E30042475A /* RZYSMyOrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495D81E7F79E30042475A /* RZYSMyOrderListModel.swift */; };
+		231495DB1E7F9FFA0042475A /* RZYSMyOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495DA1E7F9FFA0042475A /* RZYSMyOrderDetailViewController.swift */; };
+		231495DF1E7FA9770042475A /* RZYSDietaryMyRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495DE1E7FA9770042475A /* RZYSDietaryMyRecommendViewController.swift */; };
+		231495E11E7FACCB0042475A /* RZYSDietaryMyRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495E01E7FACCB0042475A /* RZYSDietaryMyRecommendModel.swift */; };
+		231495E31E7FCB020042475A /* RZYSDietaryIntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495E21E7FCB020042475A /* RZYSDietaryIntroduceViewController.swift */; };
+		231495E51E7FCB2A0042475A /* RZYSDietaryAuthorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495E41E7FCB2A0042475A /* RZYSDietaryAuthorityViewController.swift */; };
+		231495E71E7FCB380042475A /* RZYSDietaryMerchantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495E61E7FCB380042475A /* RZYSDietaryMerchantInfoViewController.swift */; };
+		231495E91E7FCB470042475A /* RZYSDietaryReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231495E81E7FCB470042475A /* RZYSDietaryReviewViewController.swift */; };
+		231B19371E777D60003918C6 /* loading01.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19271E777D60003918C6 /* loading01.png */; };
+		231B19381E777D60003918C6 /* loading02.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19281E777D60003918C6 /* loading02.png */; };
+		231B19391E777D60003918C6 /* loading03.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19291E777D60003918C6 /* loading03.png */; };
+		231B193A1E777D60003918C6 /* loading04.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192A1E777D60003918C6 /* loading04.png */; };
+		231B193B1E777D60003918C6 /* loading05.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192B1E777D60003918C6 /* loading05.png */; };
+		231B193C1E777D60003918C6 /* loading06.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192C1E777D60003918C6 /* loading06.png */; };
+		231B193D1E777D60003918C6 /* loading07.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192D1E777D60003918C6 /* loading07.png */; };
+		231B193E1E777D60003918C6 /* loading08.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192E1E777D60003918C6 /* loading08.png */; };
+		231B193F1E777D60003918C6 /* loading09.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B192F1E777D60003918C6 /* loading09.png */; };
+		231B19401E777D60003918C6 /* loading10.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19301E777D60003918C6 /* loading10.png */; };
+		231B19411E777D60003918C6 /* loading11.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19311E777D60003918C6 /* loading11.png */; };
+		231B19421E777D60003918C6 /* loading12.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19321E777D60003918C6 /* loading12.png */; };
+		231B19431E777D60003918C6 /* loading13.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19331E777D60003918C6 /* loading13.png */; };
+		231B19441E777D60003918C6 /* loading14.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19341E777D60003918C6 /* loading14.png */; };
+		231B19451E777D60003918C6 /* loading15.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19351E777D60003918C6 /* loading15.png */; };
+		231B19461E777D60003918C6 /* loading16.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B19361E777D60003918C6 /* loading16.png */; };
+		232823F31E77CDF7003CA6F1 /* examination.png in Resources */ = {isa = PBXBuildFile; fileRef = 232823EE1E77CDF7003CA6F1 /* examination.png */; };
+		232823F41E77CDF7003CA6F1 /* family.png in Resources */ = {isa = PBXBuildFile; fileRef = 232823EF1E77CDF7003CA6F1 /* family.png */; };
+		232823F51E77CDF7003CA6F1 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = 232823F01E77CDF7003CA6F1 /* health.png */; };
+		232823F61E77CDF7003CA6F1 /* irritability.png in Resources */ = {isa = PBXBuildFile; fileRef = 232823F11E77CDF7003CA6F1 /* irritability.png */; };
+		232823F71E77CDF7003CA6F1 /* treat.png in Resources */ = {isa = PBXBuildFile; fileRef = 232823F21E77CDF7003CA6F1 /* treat.png */; };
+		232824031E77E388003CA6F1 /* RZYSPersonalDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232824021E77E388003CA6F1 /* RZYSPersonalDetailModel.swift */; };
+		232824051E77EE3A003CA6F1 /* RZYSPersonalDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232824041E77EE3A003CA6F1 /* RZYSPersonalDetailTableViewCell.swift */; };
+		232C2B7B1E7A22FA00B987D1 /* homePage_patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2B7A1E7A22FA00B987D1 /* homePage_patient.png */; };
+		232C2B7D1E7A22FF00B987D1 /* homePage_order.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2B7C1E7A22FF00B987D1 /* homePage_order.png */; };
+		232C2B901E7A250800B987D1 /* RZYSMyPatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B841E7A250800B987D1 /* RZYSMyPatientDetailViewController.swift */; };
+		232C2B911E7A250800B987D1 /* RZYSMyPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B851E7A250800B987D1 /* RZYSMyPatientViewController.swift */; };
+		232C2B921E7A250800B987D1 /* RZYSPatientExaminationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B861E7A250800B987D1 /* RZYSPatientExaminationViewController.swift */; };
+		232C2B931E7A250800B987D1 /* RZYSPatientFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B871E7A250800B987D1 /* RZYSPatientFamilyViewController.swift */; };
+		232C2B941E7A250800B987D1 /* RZYSPatientHeadthInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B881E7A250800B987D1 /* RZYSPatientHeadthInfoViewController.swift */; };
+		232C2B951E7A250800B987D1 /* RZYSPatientIrritabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B891E7A250800B987D1 /* RZYSPatientIrritabilityViewController.swift */; };
+		232C2B961E7A250800B987D1 /* RZYSPatientTreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B8A1E7A250800B987D1 /* RZYSPatientTreatViewController.swift */; };
+		232C2B971E7A250800B987D1 /* RZYSMyPatientListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B8C1E7A250800B987D1 /* RZYSMyPatientListModel.swift */; };
+		232C2B981E7A250800B987D1 /* RZYSMyPatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B8E1E7A250800B987D1 /* RZYSMyPatientTableViewCell.swift */; };
+		232C2B991E7A250800B987D1 /* RZYSPatientDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B8F1E7A250800B987D1 /* RZYSPatientDetailTableViewCell.swift */; };
+		232C2B9B1E7A25E700B987D1 /* RZYSMyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2B9A1E7A25E700B987D1 /* RZYSMyOrderViewController.swift */; };
+		232C2B9D1E7A27D700B987D1 /* signOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2B9C1E7A27D700B987D1 /* signOrder.png */; };
+		232C2B9F1E7A281900B987D1 /* person_dietary.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2B9E1E7A281900B987D1 /* person_dietary.png */; };
+		232C2BA11E7A285700B987D1 /* person_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2BA01E7A285700B987D1 /* person_message.png */; };
+		232C2BA31E7A295400B987D1 /* person_order.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C2BA21E7A295400B987D1 /* person_order.png */; };
+		232C2BA91E7A2AA500B987D1 /* RZYSMySignOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2BA81E7A2AA500B987D1 /* RZYSMySignOrderViewController.swift */; };
+		232C2BAB1E7A2D9100B987D1 /* RZYSMySignOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2BAA1E7A2D9100B987D1 /* RZYSMySignOrderTableViewCell.swift */; };
+		232C2BAD1E7A316500B987D1 /* RZYSMySignOderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2BAC1E7A316500B987D1 /* RZYSMySignOderListModel.swift */; };
+		232C2BAF1E7A376900B987D1 /* RZYSNetUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C2BAE1E7A376900B987D1 /* RZYSNetUtil.swift */; };
+		23A247501E7A7BA700D829C8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A2474F1E7A7BA700D829C8 /* CoreTelephony.framework */; };
+		23A247521E7A7BD200D829C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A247511E7A7BD200D829C8 /* SystemConfiguration.framework */; };
+		23A247541E7A7BDA00D829C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A247531E7A7BDA00D829C8 /* CoreLocation.framework */; };
+		23A2475B1E7A7C5500D829C8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A2475A1E7A7C5500D829C8 /* libz.tbd */; };
+		23C8E5001E80A9AF0084AC9D /* RZYSCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8E4FF1E80A9AF0084AC9D /* RZYSCircleView.swift */; };
+		23C8E5021E80B29B0084AC9D /* RZYSDietaryRecommendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8E5011E80B29B0084AC9D /* RZYSDietaryRecommendTableViewCell.swift */; };
+		23D7C44F1E767E060053135D /* RZYSPersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D7C44E1E767E060053135D /* RZYSPersonalDetailViewController.swift */; };
+		23D7C4531E76801E0053135D /* RZYSPersonalHomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D7C4521E76801E0053135D /* RZYSPersonalHomePageTableViewCell.swift */; };
+		23D7C4551E769BA70053135D /* patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D7C4541E769BA70053135D /* patient.png */; };
+		23D7C45B1E769BB40053135D /* iot.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D7C45A1E769BB40053135D /* iot.png */; };
+		23D7C45D1E769C280053135D /* homePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D7C45C1E769C280053135D /* homePage.png */; };
+		23DB55FC1E7B7AFD00DCD59A /* RZYSMySignOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DB55FB1E7B7AFD00DCD59A /* RZYSMySignOrderDetailViewController.swift */; };
+		23DB560A1E7BBCF300DCD59A /* libXG-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DB56071E7BBCF300DCD59A /* libXG-SDK.a */; };
+		23DB560C1E7BBD2B00DCD59A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DB560B1E7BBD2B00DCD59A /* UserNotifications.framework */; };
+		23DD5B3E1E7632EE00E31264 /* RZYSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DD5B3D1E7632EE00E31264 /* RZYSToast.swift */; };
+		23F1B4121E791AAD00C06285 /* changeInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F1B4111E791AAD00C06285 /* changeInfo.png */; };
+		23F1B4181E791B1E00C06285 /* RZYSChangeUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F1B4171E791B1E00C06285 /* RZYSChangeUserInfoViewController.swift */; };
+		23F1B41A1E7923DC00C06285 /* RZYSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F1B4191E7923DC00C06285 /* RZYSDevice.swift */; };
+		23F1B41C1E79595A00C06285 /* RZYSDietaryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F1B41B1E79595A00C06285 /* RZYSDietaryListModel.swift */; };
+		23FAB7911E81F59500BDD5CD /* RZYSChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAB78E1E81F59500BDD5CD /* RZYSChatViewController.swift */; };
+		23FAB7931E81F5B200BDD5CD /* RZYSMessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAB7921E81F5B200BDD5CD /* RZYSMessageListViewController.swift */; };
+		23FAB7951E81F89300BDD5CD /* RZYSMessageListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAB7941E81F89300BDD5CD /* RZYSMessageListTableViewCell.swift */; };
+		862AF97A72B865F16C5A8E81 /* Pods_RZYS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5502A09B080B04F5EA7E4B7 /* Pods_RZYS.framework */; };
+		F61372CD1E728CC600F83F23 /* dietaryDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = F61372CC1E728CC600F83F23 /* dietaryDefault.png */; };
+		F61372CF1E728E6300F83F23 /* RZYSDietaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61372CE1E728E6300F83F23 /* RZYSDietaryDetailViewController.swift */; };
+		F62C25B31E761ABF005466FA /* RZYSPersonalHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C25B21E761ABF005466FA /* RZYSPersonalHomePageViewController.swift */; };
+		F651CBAE1E70F0F2007ADDD6 /* RZYSHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651CBAD1E70F0F2007ADDD6 /* RZYSHomePageViewController.swift */; };
+		F651CBB11E70F22C007ADDD6 /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = F651CBB01E70F22C007ADDD6 /* personal.png */; };
+		F651CBBA1E714946007ADDD6 /* dietary.png in Resources */ = {isa = PBXBuildFile; fileRef = F651CBB91E714946007ADDD6 /* dietary.png */; };
+		F651CBC01E7151AF007ADDD6 /* messageM.png in Resources */ = {isa = PBXBuildFile; fileRef = F651CBBF1E7151AF007ADDD6 /* messageM.png */; };
+		F657AF391E7158BC00F86CE4 /* RZYSMSManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F657AF381E7158BC00F86CE4 /* RZYSMSManagerViewController.swift */; };
+		F657AF3E1E71592500F86CE4 /* RZYSDietaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F657AF3D1E71592500F86CE4 /* RZYSDietaryViewController.swift */; };
+		F670B22C1E6F942E006D8A1B /* RZYSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670B22B1E6F942E006D8A1B /* RZYSRegisterViewController.swift */; };
+		F670B2301E6F97D3006D8A1B /* RZYSNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670B22F1E6F97D3006D8A1B /* RZYSNetworking.swift */; };
+		F670B2321E6F9F1C006D8A1B /* RZYSAPIStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670B2311E6F9F1C006D8A1B /* RZYSAPIStringConstants.swift */; };
+		F670B2351E6F9F9B006D8A1B /* RZYSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670B2341E6F9F9B006D8A1B /* RZYSUtil.swift */; };
+		F670B23D1E7001E0006D8A1B /* RZYSForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670B23C1E7001E0006D8A1B /* RZYSForgetPasswordViewController.swift */; };
+		F6E848461E72269E00F438D5 /* RZYSDeviceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E848451E72269E00F438D5 /* RZYSDeviceConstants.swift */; };
+		F6E848481E7226DA00F438D5 /* RZYSColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E848471E7226DA00F438D5 /* RZYSColorConstants.swift */; };
+		F6E8484A1E72273100F438D5 /* RZYSFontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E848491E72273100F438D5 /* RZYSFontConstants.swift */; };
+		F6E8484C1E72276500F438D5 /* RZYSSizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8484B1E72276500F438D5 /* RZYSSizeConstants.swift */; };
+		F6E8484E1E7227C600F438D5 /* RZYSUserDefaultStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8484D1E7227C600F438D5 /* RZYSUserDefaultStringConstants.swift */; };
+		F6E848501E7227D900F438D5 /* RZYSNotificationStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8484F1E7227D900F438D5 /* RZYSNotificationStringConstants.swift */; };
+		F6E848521E72281800F438D5 /* RZYSCommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E848511E72281800F438D5 /* RZYSCommonConstants.swift */; };
+		F6E8485C1E72477800F438D5 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E8485B1E72477800F438D5 /* chat.png */; };
+		F6E8485E1E7247BF00F438D5 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E8485D1E7247BF00F438D5 /* setting.png */; };
+		F6E848601E726F5E00F438D5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8485F1E726F5E00F438D5 /* SwiftyJSON.swift */; };
+		F6E848621E72803C00F438D5 /* RZYSDietaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E848611E72803C00F438D5 /* RZYSDietaryTableViewCell.swift */; };
+		F6F58FA81E6E9EC200919A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FA71E6E9EC200919A1C /* AppDelegate.swift */; };
+		F6F58FAF1E6E9EC200919A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FAE1E6E9EC200919A1C /* Assets.xcassets */; };
+		F6F58FBD1E6E9EC200919A1C /* RZYSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FBC1E6E9EC200919A1C /* RZYSTests.swift */; };
+		F6F58FC81E6E9EC200919A1C /* RZYSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FC71E6E9EC200919A1C /* RZYSUITests.swift */; };
+		F6F58FE41E6EA17600919A1C /* RZYSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FE31E6EA17600919A1C /* RZYSBaseViewController.swift */; };
+		F6F58FE61E6EA1AE00919A1C /* RZYSLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FE51E6EA1AE00919A1C /* RZYSLoading.swift */; };
+		F6F58FE81E6EA1C300919A1C /* RZYSLodingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FE71E6EA1C300919A1C /* RZYSLodingManager.swift */; };
+		F6F58FEA1E6EA21000919A1C /* RZYSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F58FE91E6EA21000919A1C /* RZYSLoginViewController.swift */; };
+		F6F58FF61E6EA72200919A1C /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FEE1E6EA72200919A1C /* loading1.png */; };
+		F6F58FF71E6EA72200919A1C /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FEF1E6EA72200919A1C /* loading2.png */; };
+		F6F58FF81E6EA72200919A1C /* loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF01E6EA72200919A1C /* loading3.png */; };
+		F6F58FF91E6EA72200919A1C /* loading4.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF11E6EA72200919A1C /* loading4.png */; };
+		F6F58FFA1E6EA72200919A1C /* loading5.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF21E6EA72200919A1C /* loading5.png */; };
+		F6F58FFB1E6EA72200919A1C /* loading6.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF31E6EA72200919A1C /* loading6.png */; };
+		F6F58FFC1E6EA72200919A1C /* loading7.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF41E6EA72200919A1C /* loading7.png */; };
+		F6F58FFD1E6EA72200919A1C /* loading8.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F58FF51E6EA72200919A1C /* loading8.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6F58FB91E6E9EC200919A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F58F9C1E6E9EC200919A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F58FA31E6E9EC200919A1C;
+			remoteInfo = RZYS;
+		};
+		F6F58FC41E6E9EC200919A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F58F9C1E6E9EC200919A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F58FA31E6E9EC200919A1C;
+			remoteInfo = RZYS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231495CC1E7F66400042475A /* sale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale.png; sourceTree = "<group>"; };
+		231495CE1E7F67990042475A /* recommendList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommendList.png; sourceTree = "<group>"; };
+		231495D01E7F681D0042475A /* RZYSDietarySaleRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietarySaleRecordViewController.swift; sourceTree = "<group>"; };
+		231495D21E7F70270042475A /* RZYSDietarySaleRecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietarySaleRecordTableViewCell.swift; sourceTree = "<group>"; };
+		231495D41E7F71F40042475A /* RZYSDietarySaleRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietarySaleRecordModel.swift; sourceTree = "<group>"; };
+		231495D61E7F76EA0042475A /* RZYSMyOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		231495D81E7F79E30042475A /* RZYSMyOrderListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyOrderListModel.swift; sourceTree = "<group>"; };
+		231495DA1E7F9FFA0042475A /* RZYSMyOrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyOrderDetailViewController.swift; sourceTree = "<group>"; };
+		231495DE1E7FA9770042475A /* RZYSDietaryMyRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryMyRecommendViewController.swift; sourceTree = "<group>"; };
+		231495E01E7FACCB0042475A /* RZYSDietaryMyRecommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryMyRecommendModel.swift; sourceTree = "<group>"; };
+		231495E21E7FCB020042475A /* RZYSDietaryIntroduceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryIntroduceViewController.swift; sourceTree = "<group>"; };
+		231495E41E7FCB2A0042475A /* RZYSDietaryAuthorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryAuthorityViewController.swift; sourceTree = "<group>"; };
+		231495E61E7FCB380042475A /* RZYSDietaryMerchantInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryMerchantInfoViewController.swift; sourceTree = "<group>"; };
+		231495E81E7FCB470042475A /* RZYSDietaryReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryReviewViewController.swift; sourceTree = "<group>"; };
+		231B19271E777D60003918C6 /* loading01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading01.png; sourceTree = "<group>"; };
+		231B19281E777D60003918C6 /* loading02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading02.png; sourceTree = "<group>"; };
+		231B19291E777D60003918C6 /* loading03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading03.png; sourceTree = "<group>"; };
+		231B192A1E777D60003918C6 /* loading04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading04.png; sourceTree = "<group>"; };
+		231B192B1E777D60003918C6 /* loading05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading05.png; sourceTree = "<group>"; };
+		231B192C1E777D60003918C6 /* loading06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading06.png; sourceTree = "<group>"; };
+		231B192D1E777D60003918C6 /* loading07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading07.png; sourceTree = "<group>"; };
+		231B192E1E777D60003918C6 /* loading08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading08.png; sourceTree = "<group>"; };
+		231B192F1E777D60003918C6 /* loading09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading09.png; sourceTree = "<group>"; };
+		231B19301E777D60003918C6 /* loading10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading10.png; sourceTree = "<group>"; };
+		231B19311E777D60003918C6 /* loading11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading11.png; sourceTree = "<group>"; };
+		231B19321E777D60003918C6 /* loading12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading12.png; sourceTree = "<group>"; };
+		231B19331E777D60003918C6 /* loading13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading13.png; sourceTree = "<group>"; };
+		231B19341E777D60003918C6 /* loading14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading14.png; sourceTree = "<group>"; };
+		231B19351E777D60003918C6 /* loading15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading15.png; sourceTree = "<group>"; };
+		231B19361E777D60003918C6 /* loading16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading16.png; sourceTree = "<group>"; };
+		232823EE1E77CDF7003CA6F1 /* examination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = examination.png; sourceTree = "<group>"; };
+		232823EF1E77CDF7003CA6F1 /* family.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = family.png; sourceTree = "<group>"; };
+		232823F01E77CDF7003CA6F1 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		232823F11E77CDF7003CA6F1 /* irritability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irritability.png; sourceTree = "<group>"; };
+		232823F21E77CDF7003CA6F1 /* treat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treat.png; sourceTree = "<group>"; };
+		232824021E77E388003CA6F1 /* RZYSPersonalDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPersonalDetailModel.swift; sourceTree = "<group>"; };
+		232824041E77EE3A003CA6F1 /* RZYSPersonalDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPersonalDetailTableViewCell.swift; sourceTree = "<group>"; };
+		232C2B7A1E7A22FA00B987D1 /* homePage_patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePage_patient.png; sourceTree = "<group>"; };
+		232C2B7C1E7A22FF00B987D1 /* homePage_order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePage_order.png; sourceTree = "<group>"; };
+		232C2B841E7A250800B987D1 /* RZYSMyPatientDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyPatientDetailViewController.swift; sourceTree = "<group>"; };
+		232C2B851E7A250800B987D1 /* RZYSMyPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyPatientViewController.swift; sourceTree = "<group>"; };
+		232C2B861E7A250800B987D1 /* RZYSPatientExaminationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientExaminationViewController.swift; sourceTree = "<group>"; };
+		232C2B871E7A250800B987D1 /* RZYSPatientFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientFamilyViewController.swift; sourceTree = "<group>"; };
+		232C2B881E7A250800B987D1 /* RZYSPatientHeadthInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientHeadthInfoViewController.swift; sourceTree = "<group>"; };
+		232C2B891E7A250800B987D1 /* RZYSPatientIrritabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientIrritabilityViewController.swift; sourceTree = "<group>"; };
+		232C2B8A1E7A250800B987D1 /* RZYSPatientTreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientTreatViewController.swift; sourceTree = "<group>"; };
+		232C2B8C1E7A250800B987D1 /* RZYSMyPatientListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyPatientListModel.swift; sourceTree = "<group>"; };
+		232C2B8E1E7A250800B987D1 /* RZYSMyPatientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyPatientTableViewCell.swift; sourceTree = "<group>"; };
+		232C2B8F1E7A250800B987D1 /* RZYSPatientDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPatientDetailTableViewCell.swift; sourceTree = "<group>"; };
+		232C2B9A1E7A25E700B987D1 /* RZYSMyOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMyOrderViewController.swift; sourceTree = "<group>"; };
+		232C2B9C1E7A27D700B987D1 /* signOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signOrder.png; sourceTree = "<group>"; };
+		232C2B9E1E7A281900B987D1 /* person_dietary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_dietary.png; sourceTree = "<group>"; };
+		232C2BA01E7A285700B987D1 /* person_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_message.png; sourceTree = "<group>"; };
+		232C2BA21E7A295400B987D1 /* person_order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_order.png; sourceTree = "<group>"; };
+		232C2BA81E7A2AA500B987D1 /* RZYSMySignOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMySignOrderViewController.swift; sourceTree = "<group>"; };
+		232C2BAA1E7A2D9100B987D1 /* RZYSMySignOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMySignOrderTableViewCell.swift; sourceTree = "<group>"; };
+		232C2BAC1E7A316500B987D1 /* RZYSMySignOderListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMySignOderListModel.swift; sourceTree = "<group>"; };
+		232C2BAE1E7A376900B987D1 /* RZYSNetUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSNetUtil.swift; sourceTree = "<group>"; };
+		23A247451E7A6D2A00D829C8 /* RZYS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RZYS.entitlements; sourceTree = "<group>"; };
+		23A2474F1E7A7BA700D829C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		23A247511E7A7BD200D829C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23A247531E7A7BDA00D829C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23A2475A1E7A7C5500D829C8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		23C8E4FF1E80A9AF0084AC9D /* RZYSCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSCircleView.swift; sourceTree = "<group>"; };
+		23C8E5011E80B29B0084AC9D /* RZYSDietaryRecommendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryRecommendTableViewCell.swift; sourceTree = "<group>"; };
+		23D7C44E1E767E060053135D /* RZYSPersonalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPersonalDetailViewController.swift; sourceTree = "<group>"; };
+		23D7C4521E76801E0053135D /* RZYSPersonalHomePageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPersonalHomePageTableViewCell.swift; sourceTree = "<group>"; };
+		23D7C4541E769BA70053135D /* patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patient.png; sourceTree = "<group>"; };
+		23D7C45A1E769BB40053135D /* iot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iot.png; sourceTree = "<group>"; };
+		23D7C45C1E769C280053135D /* homePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePage.png; sourceTree = "<group>"; };
+		23DB55FB1E7B7AFD00DCD59A /* RZYSMySignOrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMySignOrderDetailViewController.swift; sourceTree = "<group>"; };
+		23DB56071E7BBCF300DCD59A /* libXG-SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libXG-SDK.a"; sourceTree = "<group>"; };
+		23DB56081E7BBCF300DCD59A /* XGPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPush.h; sourceTree = "<group>"; };
+		23DB56091E7BBCF300DCD59A /* XGSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSetting.h; sourceTree = "<group>"; };
+		23DB560B1E7BBD2B00DCD59A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		23DD5B3D1E7632EE00E31264 /* RZYSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSToast.swift; sourceTree = "<group>"; };
+		23F1B4111E791AAD00C06285 /* changeInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changeInfo.png; sourceTree = "<group>"; };
+		23F1B4171E791B1E00C06285 /* RZYSChangeUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSChangeUserInfoViewController.swift; sourceTree = "<group>"; };
+		23F1B4191E7923DC00C06285 /* RZYSDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDevice.swift; sourceTree = "<group>"; };
+		23F1B41B1E79595A00C06285 /* RZYSDietaryListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryListModel.swift; sourceTree = "<group>"; };
+		23FAB78E1E81F59500BDD5CD /* RZYSChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSChatViewController.swift; sourceTree = "<group>"; };
+		23FAB7921E81F5B200BDD5CD /* RZYSMessageListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMessageListViewController.swift; sourceTree = "<group>"; };
+		23FAB7941E81F89300BDD5CD /* RZYSMessageListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMessageListTableViewCell.swift; sourceTree = "<group>"; };
+		31917650593B7281734665F8 /* Pods-RZYS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZYS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZYS/Pods-RZYS.release.xcconfig"; sourceTree = "<group>"; };
+		71CDA5B1A8B2B5D8C8723082 /* Pods-RZYS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZYS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZYS/Pods-RZYS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5502A09B080B04F5EA7E4B7 /* Pods_RZYS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZYS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61372CC1E728CC600F83F23 /* dietaryDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dietaryDefault.png; sourceTree = "<group>"; };
+		F61372CE1E728E6300F83F23 /* RZYSDietaryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryDetailViewController.swift; sourceTree = "<group>"; };
+		F61372D31E728EB300F83F23 /* RZYS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RZYS-Bridging-Header.h"; sourceTree = "<group>"; };
+		F62C25B21E761ABF005466FA /* RZYSPersonalHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSPersonalHomePageViewController.swift; sourceTree = "<group>"; };
+		F651CBAD1E70F0F2007ADDD6 /* RZYSHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSHomePageViewController.swift; sourceTree = "<group>"; };
+		F651CBB01E70F22C007ADDD6 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal.png; sourceTree = "<group>"; };
+		F651CBB91E714946007ADDD6 /* dietary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dietary.png; sourceTree = "<group>"; };
+		F651CBBF1E7151AF007ADDD6 /* messageM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageM.png; sourceTree = "<group>"; };
+		F657AF381E7158BC00F86CE4 /* RZYSMSManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSMSManagerViewController.swift; sourceTree = "<group>"; };
+		F657AF3D1E71592500F86CE4 /* RZYSDietaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryViewController.swift; sourceTree = "<group>"; };
+		F670B22B1E6F942E006D8A1B /* RZYSRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSRegisterViewController.swift; sourceTree = "<group>"; };
+		F670B22F1E6F97D3006D8A1B /* RZYSNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSNetworking.swift; sourceTree = "<group>"; };
+		F670B2311E6F9F1C006D8A1B /* RZYSAPIStringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSAPIStringConstants.swift; sourceTree = "<group>"; };
+		F670B2341E6F9F9B006D8A1B /* RZYSUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSUtil.swift; sourceTree = "<group>"; };
+		F670B23C1E7001E0006D8A1B /* RZYSForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		F6E848451E72269E00F438D5 /* RZYSDeviceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDeviceConstants.swift; sourceTree = "<group>"; };
+		F6E848471E7226DA00F438D5 /* RZYSColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSColorConstants.swift; sourceTree = "<group>"; };
+		F6E848491E72273100F438D5 /* RZYSFontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSFontConstants.swift; sourceTree = "<group>"; };
+		F6E8484B1E72276500F438D5 /* RZYSSizeConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSSizeConstants.swift; sourceTree = "<group>"; };
+		F6E8484D1E7227C600F438D5 /* RZYSUserDefaultStringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSUserDefaultStringConstants.swift; sourceTree = "<group>"; };
+		F6E8484F1E7227D900F438D5 /* RZYSNotificationStringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSNotificationStringConstants.swift; sourceTree = "<group>"; };
+		F6E848511E72281800F438D5 /* RZYSCommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSCommonConstants.swift; sourceTree = "<group>"; };
+		F6E8485B1E72477800F438D5 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		F6E8485D1E7247BF00F438D5 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		F6E8485F1E726F5E00F438D5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F6E848611E72803C00F438D5 /* RZYSDietaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSDietaryTableViewCell.swift; sourceTree = "<group>"; };
+		F6F58FA41E6E9EC200919A1C /* RZYS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZYS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F58FA71E6E9EC200919A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6F58FAE1E6E9EC200919A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F58FB31E6E9EC200919A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F58FB81E6E9EC200919A1C /* RZYSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZYSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F58FBC1E6E9EC200919A1C /* RZYSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZYSTests.swift; sourceTree = "<group>"; };
+		F6F58FBE1E6E9EC200919A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F58FC31E6E9EC200919A1C /* RZYSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZYSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F58FC71E6E9EC200919A1C /* RZYSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZYSUITests.swift; sourceTree = "<group>"; };
+		F6F58FC91E6E9EC200919A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F58FE31E6EA17600919A1C /* RZYSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSBaseViewController.swift; sourceTree = "<group>"; };
+		F6F58FE51E6EA1AE00919A1C /* RZYSLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSLoading.swift; sourceTree = "<group>"; };
+		F6F58FE71E6EA1C300919A1C /* RZYSLodingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSLodingManager.swift; sourceTree = "<group>"; };
+		F6F58FE91E6EA21000919A1C /* RZYSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RZYSLoginViewController.swift; sourceTree = "<group>"; };
+		F6F58FEE1E6EA72200919A1C /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading1.png; sourceTree = "<group>"; };
+		F6F58FEF1E6EA72200919A1C /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading2.png; sourceTree = "<group>"; };
+		F6F58FF01E6EA72200919A1C /* loading3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading3.png; sourceTree = "<group>"; };
+		F6F58FF11E6EA72200919A1C /* loading4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading4.png; sourceTree = "<group>"; };
+		F6F58FF21E6EA72200919A1C /* loading5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading5.png; sourceTree = "<group>"; };
+		F6F58FF31E6EA72200919A1C /* loading6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading6.png; sourceTree = "<group>"; };
+		F6F58FF41E6EA72200919A1C /* loading7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading7.png; sourceTree = "<group>"; };
+		F6F58FF51E6EA72200919A1C /* loading8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading8.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F58FA11E6E9EC200919A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB560C1E7BBD2B00DCD59A /* UserNotifications.framework in Frameworks */,
+				23A2475B1E7A7C5500D829C8 /* libz.tbd in Frameworks */,
+				23A247541E7A7BDA00D829C8 /* CoreLocation.framework in Frameworks */,
+				23A247521E7A7BD200D829C8 /* SystemConfiguration.framework in Frameworks */,
+				23A247501E7A7BA700D829C8 /* CoreTelephony.framework in Frameworks */,
+				862AF97A72B865F16C5A8E81 /* Pods_RZYS.framework in Frameworks */,
+				23DB560A1E7BBCF300DCD59A /* libXG-SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FB51E6E9EC200919A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FC01E6E9EC200919A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231B19231E777B7E003918C6 /* refresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = refresh;
+			sourceTree = "<group>";
+		};
+		231B19261E777D60003918C6 /* refreshImage */ = {
+			isa = PBXGroup;
+			children = (
+				231B19271E777D60003918C6 /* loading01.png */,
+				231B19281E777D60003918C6 /* loading02.png */,
+				231B19291E777D60003918C6 /* loading03.png */,
+				231B192A1E777D60003918C6 /* loading04.png */,
+				231B192B1E777D60003918C6 /* loading05.png */,
+				231B192C1E777D60003918C6 /* loading06.png */,
+				231B192D1E777D60003918C6 /* loading07.png */,
+				231B192E1E777D60003918C6 /* loading08.png */,
+				231B192F1E777D60003918C6 /* loading09.png */,
+				231B19301E777D60003918C6 /* loading10.png */,
+				231B19311E777D60003918C6 /* loading11.png */,
+				231B19321E777D60003918C6 /* loading12.png */,
+				231B19331E777D60003918C6 /* loading13.png */,
+				231B19341E777D60003918C6 /* loading14.png */,
+				231B19351E777D60003918C6 /* loading15.png */,
+				231B19361E777D60003918C6 /* loading16.png */,
+			);
+			path = refreshImage;
+			sourceTree = "<group>";
+		};
+		232823ED1E77CDF7003CA6F1 /* patient */ = {
+			isa = PBXGroup;
+			children = (
+				232823EE1E77CDF7003CA6F1 /* examination.png */,
+				232823EF1E77CDF7003CA6F1 /* family.png */,
+				232823F01E77CDF7003CA6F1 /* health.png */,
+				232823F11E77CDF7003CA6F1 /* irritability.png */,
+				232823F21E77CDF7003CA6F1 /* treat.png */,
+			);
+			path = patient;
+			sourceTree = "<group>";
+		};
+		232C2B7E1E7A250800B987D1 /* myOrder */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B7F1E7A250800B987D1 /* controller */,
+				232C2B801E7A250800B987D1 /* model */,
+				232C2B811E7A250800B987D1 /* view */,
+			);
+			path = myOrder;
+			sourceTree = "<group>";
+		};
+		232C2B7F1E7A250800B987D1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B9A1E7A25E700B987D1 /* RZYSMyOrderViewController.swift */,
+				231495DA1E7F9FFA0042475A /* RZYSMyOrderDetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		232C2B801E7A250800B987D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				231495D81E7F79E30042475A /* RZYSMyOrderListModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		232C2B811E7A250800B987D1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				231495D61E7F76EA0042475A /* RZYSMyOrderTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		232C2B821E7A250800B987D1 /* myPatient */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B831E7A250800B987D1 /* controller */,
+				232C2B8B1E7A250800B987D1 /* model */,
+				232C2B8D1E7A250800B987D1 /* view */,
+			);
+			path = myPatient;
+			sourceTree = "<group>";
+		};
+		232C2B831E7A250800B987D1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B851E7A250800B987D1 /* RZYSMyPatientViewController.swift */,
+				232C2B841E7A250800B987D1 /* RZYSMyPatientDetailViewController.swift */,
+				232C2B861E7A250800B987D1 /* RZYSPatientExaminationViewController.swift */,
+				232C2B871E7A250800B987D1 /* RZYSPatientFamilyViewController.swift */,
+				232C2B881E7A250800B987D1 /* RZYSPatientHeadthInfoViewController.swift */,
+				232C2B891E7A250800B987D1 /* RZYSPatientIrritabilityViewController.swift */,
+				232C2B8A1E7A250800B987D1 /* RZYSPatientTreatViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		232C2B8B1E7A250800B987D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B8C1E7A250800B987D1 /* RZYSMyPatientListModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		232C2B8D1E7A250800B987D1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				232C2B8E1E7A250800B987D1 /* RZYSMyPatientTableViewCell.swift */,
+				232C2B8F1E7A250800B987D1 /* RZYSPatientDetailTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		232C2BA41E7A2A9700B987D1 /* signOrder */ = {
+			isa = PBXGroup;
+			children = (
+				232C2BA51E7A2A9700B987D1 /* controller */,
+				232C2BA61E7A2A9700B987D1 /* model */,
+				232C2BA71E7A2A9700B987D1 /* view */,
+			);
+			path = signOrder;
+			sourceTree = "<group>";
+		};
+		232C2BA51E7A2A9700B987D1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				232C2BA81E7A2AA500B987D1 /* RZYSMySignOrderViewController.swift */,
+				23DB55FB1E7B7AFD00DCD59A /* RZYSMySignOrderDetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		232C2BA61E7A2A9700B987D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				232C2BAC1E7A316500B987D1 /* RZYSMySignOderListModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		232C2BA71E7A2A9700B987D1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				232C2BAA1E7A2D9100B987D1 /* RZYSMySignOrderTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		23D7C44A1E767DF20053135D /* detailInfo */ = {
+			isa = PBXGroup;
+			children = (
+				23D7C44B1E767DF20053135D /* controller */,
+				23D7C44C1E767DF20053135D /* model */,
+				23D7C44D1E767DF20053135D /* view */,
+			);
+			path = detailInfo;
+			sourceTree = "<group>";
+		};
+		23D7C44B1E767DF20053135D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				23D7C44E1E767E060053135D /* RZYSPersonalDetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		23D7C44C1E767DF20053135D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				232824021E77E388003CA6F1 /* RZYSPersonalDetailModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		23D7C44D1E767DF20053135D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				232824041E77EE3A003CA6F1 /* RZYSPersonalDetailTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		23DB56061E7BBCF300DCD59A /* XGPush */ = {
+			isa = PBXGroup;
+			children = (
+				23DB56071E7BBCF300DCD59A /* libXG-SDK.a */,
+				23DB56081E7BBCF300DCD59A /* XGPush.h */,
+				23DB56091E7BBCF300DCD59A /* XGSetting.h */,
+			);
+			path = XGPush;
+			sourceTree = "<group>";
+		};
+		23F1B4131E791B0200C06285 /* changeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				23F1B4141E791B0200C06285 /* controller */,
+				23F1B4151E791B0200C06285 /* model */,
+				23F1B4161E791B0200C06285 /* view */,
+			);
+			path = changeInfo;
+			sourceTree = "<group>";
+		};
+		23F1B4141E791B0200C06285 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				23F1B4171E791B1E00C06285 /* RZYSChangeUserInfoViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		23F1B4151E791B0200C06285 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		23F1B4161E791B0200C06285 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		23FAB78C1E81F59500BDD5CD /* message */ = {
+			isa = PBXGroup;
+			children = (
+				23FAB78D1E81F59500BDD5CD /* controller */,
+				23FAB78F1E81F59500BDD5CD /* model */,
+				23FAB7901E81F59500BDD5CD /* view */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		23FAB78D1E81F59500BDD5CD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				23FAB7921E81F5B200BDD5CD /* RZYSMessageListViewController.swift */,
+				23FAB78E1E81F59500BDD5CD /* RZYSChatViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		23FAB78F1E81F59500BDD5CD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		23FAB7901E81F59500BDD5CD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				23FAB7941E81F89300BDD5CD /* RZYSMessageListTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2CB00DA1E5394415671A86A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CDA5B1A8B2B5D8C8723082 /* Pods-RZYS.debug.xcconfig */,
+				31917650593B7281734665F8 /* Pods-RZYS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E9B377142EE32C289BADA10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23DB560B1E7BBD2B00DCD59A /* UserNotifications.framework */,
+				23A2475A1E7A7C5500D829C8 /* libz.tbd */,
+				23A247531E7A7BDA00D829C8 /* CoreLocation.framework */,
+				23A247511E7A7BD200D829C8 /* SystemConfiguration.framework */,
+				23A2474F1E7A7BA700D829C8 /* CoreTelephony.framework */,
+				F5502A09B080B04F5EA7E4B7 /* Pods_RZYS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F61372CB1E728CC600F83F23 /* dietary */ = {
+			isa = PBXGroup;
+			children = (
+				F61372CC1E728CC600F83F23 /* dietaryDefault.png */,
+				231495CE1E7F67990042475A /* recommendList.png */,
+			);
+			path = dietary;
+			sourceTree = "<group>";
+		};
+		F62C25A71E761853005466FA /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				F62C25A81E761853005466FA /* homePage */,
+				232C2BA41E7A2A9700B987D1 /* signOrder */,
+				23F1B4131E791B0200C06285 /* changeInfo */,
+				23D7C44A1E767DF20053135D /* detailInfo */,
+			);
+			path = personal;
+			sourceTree = "<group>";
+		};
+		F62C25A81E761853005466FA /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				F62C25A91E761853005466FA /* controller */,
+				F62C25AA1E761853005466FA /* model */,
+				F62C25AB1E761853005466FA /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		F62C25A91E761853005466FA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F62C25B21E761ABF005466FA /* RZYSPersonalHomePageViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F62C25AA1E761853005466FA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F62C25AB1E761853005466FA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				23D7C4521E76801E0053135D /* RZYSPersonalHomePageTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F651CBA91E70F0E2007ADDD6 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				F651CBAA1E70F0E2007ADDD6 /* controller */,
+				F651CBAB1E70F0E2007ADDD6 /* model */,
+				F651CBAC1E70F0E3007ADDD6 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		F651CBAA1E70F0E2007ADDD6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F651CBAD1E70F0F2007ADDD6 /* RZYSHomePageViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F651CBAB1E70F0E2007ADDD6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F651CBAC1E70F0E3007ADDD6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F651CBAF1E70F22C007ADDD6 /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				231495CC1E7F66400042475A /* sale.png */,
+				232C2B9C1E7A27D700B987D1 /* signOrder.png */,
+				232C2B9E1E7A281900B987D1 /* person_dietary.png */,
+				23F1B4111E791AAD00C06285 /* changeInfo.png */,
+				23D7C45C1E769C280053135D /* homePage.png */,
+				232C2BA21E7A295400B987D1 /* person_order.png */,
+				232C2BA01E7A285700B987D1 /* person_message.png */,
+				23D7C45A1E769BB40053135D /* iot.png */,
+				23D7C4541E769BA70053135D /* patient.png */,
+				F651CBB01E70F22C007ADDD6 /* personal.png */,
+			);
+			path = personal;
+			sourceTree = "<group>";
+		};
+		F651CBB31E70FF4A007ADDD6 /* circleView */ = {
+			isa = PBXGroup;
+			children = (
+				23C8E4FF1E80A9AF0084AC9D /* RZYSCircleView.swift */,
+			);
+			path = circleView;
+			sourceTree = "<group>";
+		};
+		F651CBB61E714773007ADDD6 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				F6E8485B1E72477800F438D5 /* chat.png */,
+				232C2B7A1E7A22FA00B987D1 /* homePage_patient.png */,
+				F651CBBF1E7151AF007ADDD6 /* messageM.png */,
+				232C2B7C1E7A22FF00B987D1 /* homePage_order.png */,
+				F6E8485D1E7247BF00F438D5 /* setting.png */,
+				F651CBB91E714946007ADDD6 /* dietary.png */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		F657AF231E71569400F86CE4 /* dietary */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF241E71569400F86CE4 /* homePage */,
+			);
+			path = dietary;
+			sourceTree = "<group>";
+		};
+		F657AF241E71569400F86CE4 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF3A1E71591A00F86CE4 /* controller */,
+				F657AF3B1E71591A00F86CE4 /* model */,
+				F657AF3C1E71591A00F86CE4 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		F657AF2A1E7156A000F86CE4 /* msManager */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF341E7158A500F86CE4 /* homePage */,
+			);
+			path = msManager;
+			sourceTree = "<group>";
+		};
+		F657AF341E7158A500F86CE4 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF351E7158A500F86CE4 /* controller */,
+				F657AF361E7158A500F86CE4 /* model */,
+				F657AF371E7158A500F86CE4 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		F657AF351E7158A500F86CE4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF381E7158BC00F86CE4 /* RZYSMSManagerViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F657AF361E7158A500F86CE4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F657AF371E7158A500F86CE4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F657AF3A1E71591A00F86CE4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F657AF3D1E71592500F86CE4 /* RZYSDietaryViewController.swift */,
+				F61372CE1E728E6300F83F23 /* RZYSDietaryDetailViewController.swift */,
+				231495D01E7F681D0042475A /* RZYSDietarySaleRecordViewController.swift */,
+				231495DE1E7FA9770042475A /* RZYSDietaryMyRecommendViewController.swift */,
+				231495E21E7FCB020042475A /* RZYSDietaryIntroduceViewController.swift */,
+				231495E41E7FCB2A0042475A /* RZYSDietaryAuthorityViewController.swift */,
+				231495E61E7FCB380042475A /* RZYSDietaryMerchantInfoViewController.swift */,
+				231495E81E7FCB470042475A /* RZYSDietaryReviewViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F657AF3B1E71591A00F86CE4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				23F1B41B1E79595A00C06285 /* RZYSDietaryListModel.swift */,
+				231495D41E7F71F40042475A /* RZYSDietarySaleRecordModel.swift */,
+				231495E01E7FACCB0042475A /* RZYSDietaryMyRecommendModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F657AF3C1E71591A00F86CE4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F6E848611E72803C00F438D5 /* RZYSDietaryTableViewCell.swift */,
+				231495D21E7F70270042475A /* RZYSDietarySaleRecordTableViewCell.swift */,
+				23C8E5011E80B29B0084AC9D /* RZYSDietaryRecommendTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F670B2241E6F93C9006D8A1B /* register */ = {
+			isa = PBXGroup;
+			children = (
+				F670B2251E6F93C9006D8A1B /* controller */,
+				F670B2261E6F93C9006D8A1B /* model */,
+				F670B2271E6F93C9006D8A1B /* view */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		F670B2251E6F93C9006D8A1B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F670B22B1E6F942E006D8A1B /* RZYSRegisterViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F670B2261E6F93C9006D8A1B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F670B2271E6F93C9006D8A1B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F670B22D1E6F968D006D8A1B /* services */ = {
+			isa = PBXGroup;
+			children = (
+				F670B22E1E6F968D006D8A1B /* networking */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		F670B22E1E6F968D006D8A1B /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				F670B22F1E6F97D3006D8A1B /* RZYSNetworking.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		F670B2331E6F9F88006D8A1B /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				232C2BAE1E7A376900B987D1 /* RZYSNetUtil.swift */,
+				F670B2341E6F9F9B006D8A1B /* RZYSUtil.swift */,
+				23DD5B3D1E7632EE00E31264 /* RZYSToast.swift */,
+				23F1B4191E7923DC00C06285 /* RZYSDevice.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		F670B2381E7001B1006D8A1B /* forgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F670B2391E7001B1006D8A1B /* controller */,
+				F670B23A1E7001B1006D8A1B /* model */,
+				F670B23B1E7001B1006D8A1B /* view */,
+			);
+			path = forgetPassword;
+			sourceTree = "<group>";
+		};
+		F670B2391E7001B1006D8A1B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F670B23C1E7001E0006D8A1B /* RZYSForgetPasswordViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F670B23A1E7001B1006D8A1B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F670B23B1E7001B1006D8A1B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F6F58F9B1E6E9EC200919A1C = {
+			isa = PBXGroup;
+			children = (
+				F6F58FA61E6E9EC200919A1C /* RZYS */,
+				F6F58FBB1E6E9EC200919A1C /* RZYSTests */,
+				F6F58FC61E6E9EC200919A1C /* RZYSUITests */,
+				F6F58FA51E6E9EC200919A1C /* Products */,
+				2CB00DA1E5394415671A86A6 /* Pods */,
+				6E9B377142EE32C289BADA10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F58FA51E6E9EC200919A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FA41E6E9EC200919A1C /* RZYS.app */,
+				F6F58FB81E6E9EC200919A1C /* RZYSTests.xctest */,
+				F6F58FC31E6E9EC200919A1C /* RZYSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F58FA61E6E9EC200919A1C /* RZYS */ = {
+			isa = PBXGroup;
+			children = (
+				23A247451E7A6D2A00D829C8 /* RZYS.entitlements */,
+				F6F58FD51E6EA04E00919A1C /* constants */,
+				F6F58FDE1E6EA05600919A1C /* universal */,
+				F6F58FD61E6EA04E00919A1C /* modules */,
+				F6F58FDB1E6EA04E00919A1C /* resource */,
+				F6F58FA71E6E9EC200919A1C /* AppDelegate.swift */,
+				F6F58FAE1E6E9EC200919A1C /* Assets.xcassets */,
+				F61372D31E728EB300F83F23 /* RZYS-Bridging-Header.h */,
+				F6F58FB31E6E9EC200919A1C /* Info.plist */,
+			);
+			path = RZYS;
+			sourceTree = "<group>";
+		};
+		F6F58FBB1E6E9EC200919A1C /* RZYSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FBC1E6E9EC200919A1C /* RZYSTests.swift */,
+				F6F58FBE1E6E9EC200919A1C /* Info.plist */,
+			);
+			path = RZYSTests;
+			sourceTree = "<group>";
+		};
+		F6F58FC61E6E9EC200919A1C /* RZYSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FC71E6E9EC200919A1C /* RZYSUITests.swift */,
+				F6F58FC91E6E9EC200919A1C /* Info.plist */,
+			);
+			path = RZYSUITests;
+			sourceTree = "<group>";
+		};
+		F6F58FD51E6EA04E00919A1C /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				F670B2311E6F9F1C006D8A1B /* RZYSAPIStringConstants.swift */,
+				F6E8484D1E7227C600F438D5 /* RZYSUserDefaultStringConstants.swift */,
+				F6E8484F1E7227D900F438D5 /* RZYSNotificationStringConstants.swift */,
+				F6E848451E72269E00F438D5 /* RZYSDeviceConstants.swift */,
+				F6E848471E7226DA00F438D5 /* RZYSColorConstants.swift */,
+				F6E848491E72273100F438D5 /* RZYSFontConstants.swift */,
+				F6E8484B1E72276500F438D5 /* RZYSSizeConstants.swift */,
+				F6E848511E72281800F438D5 /* RZYSCommonConstants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		F6F58FD61E6EA04E00919A1C /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				F651CBA91E70F0E2007ADDD6 /* homePage */,
+				23FAB78C1E81F59500BDD5CD /* message */,
+				F657AF231E71569400F86CE4 /* dietary */,
+				232C2B7E1E7A250800B987D1 /* myOrder */,
+				232C2B821E7A250800B987D1 /* myPatient */,
+				F657AF2A1E7156A000F86CE4 /* msManager */,
+				F62C25A71E761853005466FA /* personal */,
+				F670B2381E7001B1006D8A1B /* forgetPassword */,
+				F670B2241E6F93C9006D8A1B /* register */,
+				F6F58FD71E6EA04E00919A1C /* login */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		F6F58FD71E6EA04E00919A1C /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FD81E6EA04E00919A1C /* controller */,
+				F6F58FD91E6EA04E00919A1C /* model */,
+				F6F58FDA1E6EA04E00919A1C /* view */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		F6F58FD81E6EA04E00919A1C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FE91E6EA21000919A1C /* RZYSLoginViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F6F58FD91E6EA04E00919A1C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F6F58FDA1E6EA04E00919A1C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F6F58FDB1E6EA04E00919A1C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FDC1E6EA04E00919A1C /* images */,
+				F6F58FDD1E6EA04E00919A1C /* thirdPath */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		F6F58FDC1E6EA04E00919A1C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				232823ED1E77CDF7003CA6F1 /* patient */,
+				231B19261E777D60003918C6 /* refreshImage */,
+				F61372CB1E728CC600F83F23 /* dietary */,
+				F651CBB61E714773007ADDD6 /* homePage */,
+				F651CBAF1E70F22C007ADDD6 /* personal */,
+				F6F58FED1E6EA72200919A1C /* loading */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F6F58FDD1E6EA04E00919A1C /* thirdPath */ = {
+			isa = PBXGroup;
+			children = (
+				23DB56061E7BBCF300DCD59A /* XGPush */,
+				F6E8485F1E726F5E00F438D5 /* SwiftyJSON.swift */,
+			);
+			path = thirdPath;
+			sourceTree = "<group>";
+		};
+		F6F58FDE1E6EA05600919A1C /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				F670B2331E6F9F88006D8A1B /* utilities */,
+				F670B22D1E6F968D006D8A1B /* services */,
+				F6F58FDF1E6EA15700919A1C /* controllers */,
+				F6F58FE11E6EA15700919A1C /* views */,
+			);
+			path = universal;
+			sourceTree = "<group>";
+		};
+		F6F58FDF1E6EA15700919A1C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FE01E6EA15700919A1C /* base */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		F6F58FE01E6EA15700919A1C /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FE31E6EA17600919A1C /* RZYSBaseViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		F6F58FE11E6EA15700919A1C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				231B19231E777B7E003918C6 /* refresh */,
+				F651CBB31E70FF4A007ADDD6 /* circleView */,
+				F6F58FE21E6EA15700919A1C /* loading */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F6F58FE21E6EA15700919A1C /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FE51E6EA1AE00919A1C /* RZYSLoading.swift */,
+				F6F58FE71E6EA1C300919A1C /* RZYSLodingManager.swift */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+		F6F58FED1E6EA72200919A1C /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58FEE1E6EA72200919A1C /* loading1.png */,
+				F6F58FEF1E6EA72200919A1C /* loading2.png */,
+				F6F58FF01E6EA72200919A1C /* loading3.png */,
+				F6F58FF11E6EA72200919A1C /* loading4.png */,
+				F6F58FF21E6EA72200919A1C /* loading5.png */,
+				F6F58FF31E6EA72200919A1C /* loading6.png */,
+				F6F58FF41E6EA72200919A1C /* loading7.png */,
+				F6F58FF51E6EA72200919A1C /* loading8.png */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F58FA31E6E9EC200919A1C /* RZYS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F58FCC1E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYS" */;
+			buildPhases = (
+				A5887E489990DAA70FCF02FF /* [CP] Check Pods Manifest.lock */,
+				F6F58FA01E6E9EC200919A1C /* Sources */,
+				F6F58FA11E6E9EC200919A1C /* Frameworks */,
+				F6F58FA21E6E9EC200919A1C /* Resources */,
+				8FF40B88A2E578355C50E872 /* [CP] Embed Pods Frameworks */,
+				87509C2ABB37BDE9AA48F1DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZYS;
+			productName = RZYS;
+			productReference = F6F58FA41E6E9EC200919A1C /* RZYS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F58FB71E6E9EC200919A1C /* RZYSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F58FCF1E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYSTests" */;
+			buildPhases = (
+				F6F58FB41E6E9EC200919A1C /* Sources */,
+				F6F58FB51E6E9EC200919A1C /* Frameworks */,
+				F6F58FB61E6E9EC200919A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F58FBA1E6E9EC200919A1C /* PBXTargetDependency */,
+			);
+			name = RZYSTests;
+			productName = RZYSTests;
+			productReference = F6F58FB81E6E9EC200919A1C /* RZYSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6F58FC21E6E9EC200919A1C /* RZYSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F58FD21E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYSUITests" */;
+			buildPhases = (
+				F6F58FBF1E6E9EC200919A1C /* Sources */,
+				F6F58FC01E6E9EC200919A1C /* Frameworks */,
+				F6F58FC11E6E9EC200919A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F58FC51E6E9EC200919A1C /* PBXTargetDependency */,
+			);
+			name = RZYSUITests;
+			productName = RZYSUITests;
+			productReference = F6F58FC31E6E9EC200919A1C /* RZYSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F58F9C1E6E9EC200919A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RZYS;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Aden;
+				TargetAttributes = {
+					F6F58FA31E6E9EC200919A1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8KY3JM7B8C;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F6F58FB71E6E9EC200919A1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WEQ78KTX5V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6F58FA31E6E9EC200919A1C;
+					};
+					F6F58FC21E6E9EC200919A1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WEQ78KTX5V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6F58FA31E6E9EC200919A1C;
+					};
+				};
+			};
+			buildConfigurationList = F6F58F9F1E6E9EC200919A1C /* Build configuration list for PBXProject "RZYS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F58F9B1E6E9EC200919A1C;
+			productRefGroup = F6F58FA51E6E9EC200919A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F58FA31E6E9EC200919A1C /* RZYS */,
+				F6F58FB71E6E9EC200919A1C /* RZYSTests */,
+				F6F58FC21E6E9EC200919A1C /* RZYSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F58FA21E6E9EC200919A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F58FF81E6EA72200919A1C /* loading3.png in Resources */,
+				232C2BA31E7A295400B987D1 /* person_order.png in Resources */,
+				232823F61E77CDF7003CA6F1 /* irritability.png in Resources */,
+				231B19421E777D60003918C6 /* loading12.png in Resources */,
+				23D7C4551E769BA70053135D /* patient.png in Resources */,
+				231B193E1E777D60003918C6 /* loading08.png in Resources */,
+				231B19371E777D60003918C6 /* loading01.png in Resources */,
+				F6F58FF61E6EA72200919A1C /* loading1.png in Resources */,
+				F6F58FFB1E6EA72200919A1C /* loading6.png in Resources */,
+				232C2B7D1E7A22FF00B987D1 /* homePage_order.png in Resources */,
+				231B193B1E777D60003918C6 /* loading05.png in Resources */,
+				F6F58FFA1E6EA72200919A1C /* loading5.png in Resources */,
+				F6F58FFC1E6EA72200919A1C /* loading7.png in Resources */,
+				232C2B9D1E7A27D700B987D1 /* signOrder.png in Resources */,
+				232C2B9F1E7A281900B987D1 /* person_dietary.png in Resources */,
+				231B19441E777D60003918C6 /* loading14.png in Resources */,
+				232823F71E77CDF7003CA6F1 /* treat.png in Resources */,
+				231B19381E777D60003918C6 /* loading02.png in Resources */,
+				F651CBB11E70F22C007ADDD6 /* personal.png in Resources */,
+				231495CD1E7F66400042475A /* sale.png in Resources */,
+				232C2BA11E7A285700B987D1 /* person_message.png in Resources */,
+				F651CBC01E7151AF007ADDD6 /* messageM.png in Resources */,
+				231B193F1E777D60003918C6 /* loading09.png in Resources */,
+				232C2B7B1E7A22FA00B987D1 /* homePage_patient.png in Resources */,
+				23D7C45B1E769BB40053135D /* iot.png in Resources */,
+				231B193A1E777D60003918C6 /* loading04.png in Resources */,
+				231495CF1E7F67990042475A /* recommendList.png in Resources */,
+				231B19451E777D60003918C6 /* loading15.png in Resources */,
+				231B19391E777D60003918C6 /* loading03.png in Resources */,
+				232823F31E77CDF7003CA6F1 /* examination.png in Resources */,
+				23F1B4121E791AAD00C06285 /* changeInfo.png in Resources */,
+				231B193D1E777D60003918C6 /* loading07.png in Resources */,
+				232823F41E77CDF7003CA6F1 /* family.png in Resources */,
+				F61372CD1E728CC600F83F23 /* dietaryDefault.png in Resources */,
+				231B19411E777D60003918C6 /* loading11.png in Resources */,
+				F6F58FF91E6EA72200919A1C /* loading4.png in Resources */,
+				23D7C45D1E769C280053135D /* homePage.png in Resources */,
+				F6F58FAF1E6E9EC200919A1C /* Assets.xcassets in Resources */,
+				232823F51E77CDF7003CA6F1 /* health.png in Resources */,
+				F6E8485C1E72477800F438D5 /* chat.png in Resources */,
+				F6E8485E1E7247BF00F438D5 /* setting.png in Resources */,
+				F6F58FF71E6EA72200919A1C /* loading2.png in Resources */,
+				231B193C1E777D60003918C6 /* loading06.png in Resources */,
+				F6F58FFD1E6EA72200919A1C /* loading8.png in Resources */,
+				231B19461E777D60003918C6 /* loading16.png in Resources */,
+				F651CBBA1E714946007ADDD6 /* dietary.png in Resources */,
+				231B19431E777D60003918C6 /* loading13.png in Resources */,
+				231B19401E777D60003918C6 /* loading10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FB61E6E9EC200919A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FC11E6E9EC200919A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87509C2ABB37BDE9AA48F1DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZYS/Pods-RZYS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF40B88A2E578355C50E872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZYS/Pods-RZYS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5887E489990DAA70FCF02FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F58FA01E6E9EC200919A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232C2BA91E7A2AA500B987D1 /* RZYSMySignOrderViewController.swift in Sources */,
+				F670B2321E6F9F1C006D8A1B /* RZYSAPIStringConstants.swift in Sources */,
+				231495DF1E7FA9770042475A /* RZYSDietaryMyRecommendViewController.swift in Sources */,
+				23F1B4181E791B1E00C06285 /* RZYSChangeUserInfoViewController.swift in Sources */,
+				232C2B991E7A250800B987D1 /* RZYSPatientDetailTableViewCell.swift in Sources */,
+				232C2B911E7A250800B987D1 /* RZYSMyPatientViewController.swift in Sources */,
+				23C8E5001E80A9AF0084AC9D /* RZYSCircleView.swift in Sources */,
+				232C2B921E7A250800B987D1 /* RZYSPatientExaminationViewController.swift in Sources */,
+				F6E848501E7227D900F438D5 /* RZYSNotificationStringConstants.swift in Sources */,
+				232824051E77EE3A003CA6F1 /* RZYSPersonalDetailTableViewCell.swift in Sources */,
+				231495E51E7FCB2A0042475A /* RZYSDietaryAuthorityViewController.swift in Sources */,
+				F6E848601E726F5E00F438D5 /* SwiftyJSON.swift in Sources */,
+				F62C25B31E761ABF005466FA /* RZYSPersonalHomePageViewController.swift in Sources */,
+				F6F58FA81E6E9EC200919A1C /* AppDelegate.swift in Sources */,
+				F6F58FEA1E6EA21000919A1C /* RZYSLoginViewController.swift in Sources */,
+				231495E11E7FACCB0042475A /* RZYSDietaryMyRecommendModel.swift in Sources */,
+				231495D11E7F681D0042475A /* RZYSDietarySaleRecordViewController.swift in Sources */,
+				F670B22C1E6F942E006D8A1B /* RZYSRegisterViewController.swift in Sources */,
+				F6F58FE61E6EA1AE00919A1C /* RZYSLoading.swift in Sources */,
+				232C2BAD1E7A316500B987D1 /* RZYSMySignOderListModel.swift in Sources */,
+				231495E91E7FCB470042475A /* RZYSDietaryReviewViewController.swift in Sources */,
+				23F1B41C1E79595A00C06285 /* RZYSDietaryListModel.swift in Sources */,
+				23D7C4531E76801E0053135D /* RZYSPersonalHomePageTableViewCell.swift in Sources */,
+				232C2BAF1E7A376900B987D1 /* RZYSNetUtil.swift in Sources */,
+				F6F58FE81E6EA1C300919A1C /* RZYSLodingManager.swift in Sources */,
+				F657AF3E1E71592500F86CE4 /* RZYSDietaryViewController.swift in Sources */,
+				F6F58FE41E6EA17600919A1C /* RZYSBaseViewController.swift in Sources */,
+				F6E848481E7226DA00F438D5 /* RZYSColorConstants.swift in Sources */,
+				23D7C44F1E767E060053135D /* RZYSPersonalDetailViewController.swift in Sources */,
+				232C2B961E7A250800B987D1 /* RZYSPatientTreatViewController.swift in Sources */,
+				F6E848621E72803C00F438D5 /* RZYSDietaryTableViewCell.swift in Sources */,
+				F6E8484E1E7227C600F438D5 /* RZYSUserDefaultStringConstants.swift in Sources */,
+				F6E8484C1E72276500F438D5 /* RZYSSizeConstants.swift in Sources */,
+				23F1B41A1E7923DC00C06285 /* RZYSDevice.swift in Sources */,
+				232C2B951E7A250800B987D1 /* RZYSPatientIrritabilityViewController.swift in Sources */,
+				232C2B971E7A250800B987D1 /* RZYSMyPatientListModel.swift in Sources */,
+				F6E848461E72269E00F438D5 /* RZYSDeviceConstants.swift in Sources */,
+				232824031E77E388003CA6F1 /* RZYSPersonalDetailModel.swift in Sources */,
+				23FAB7931E81F5B200BDD5CD /* RZYSMessageListViewController.swift in Sources */,
+				F651CBAE1E70F0F2007ADDD6 /* RZYSHomePageViewController.swift in Sources */,
+				231495D71E7F76EA0042475A /* RZYSMyOrderTableViewCell.swift in Sources */,
+				231495E31E7FCB020042475A /* RZYSDietaryIntroduceViewController.swift in Sources */,
+				23DB55FC1E7B7AFD00DCD59A /* RZYSMySignOrderDetailViewController.swift in Sources */,
+				23DD5B3E1E7632EE00E31264 /* RZYSToast.swift in Sources */,
+				F6E8484A1E72273100F438D5 /* RZYSFontConstants.swift in Sources */,
+				232C2B981E7A250800B987D1 /* RZYSMyPatientTableViewCell.swift in Sources */,
+				232C2BAB1E7A2D9100B987D1 /* RZYSMySignOrderTableViewCell.swift in Sources */,
+				232C2B901E7A250800B987D1 /* RZYSMyPatientDetailViewController.swift in Sources */,
+				232C2B931E7A250800B987D1 /* RZYSPatientFamilyViewController.swift in Sources */,
+				232C2B9B1E7A25E700B987D1 /* RZYSMyOrderViewController.swift in Sources */,
+				F657AF391E7158BC00F86CE4 /* RZYSMSManagerViewController.swift in Sources */,
+				F6E848521E72281800F438D5 /* RZYSCommonConstants.swift in Sources */,
+				23FAB7951E81F89300BDD5CD /* RZYSMessageListTableViewCell.swift in Sources */,
+				23C8E5021E80B29B0084AC9D /* RZYSDietaryRecommendTableViewCell.swift in Sources */,
+				231495D91E7F79E30042475A /* RZYSMyOrderListModel.swift in Sources */,
+				231495D51E7F71F40042475A /* RZYSDietarySaleRecordModel.swift in Sources */,
+				232C2B941E7A250800B987D1 /* RZYSPatientHeadthInfoViewController.swift in Sources */,
+				231495E71E7FCB380042475A /* RZYSDietaryMerchantInfoViewController.swift in Sources */,
+				231495DB1E7F9FFA0042475A /* RZYSMyOrderDetailViewController.swift in Sources */,
+				F670B2301E6F97D3006D8A1B /* RZYSNetworking.swift in Sources */,
+				231495D31E7F70270042475A /* RZYSDietarySaleRecordTableViewCell.swift in Sources */,
+				F670B23D1E7001E0006D8A1B /* RZYSForgetPasswordViewController.swift in Sources */,
+				F61372CF1E728E6300F83F23 /* RZYSDietaryDetailViewController.swift in Sources */,
+				F670B2351E6F9F9B006D8A1B /* RZYSUtil.swift in Sources */,
+				23FAB7911E81F59500BDD5CD /* RZYSChatViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FB41E6E9EC200919A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F58FBD1E6E9EC200919A1C /* RZYSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F58FBF1E6E9EC200919A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F58FC81E6E9EC200919A1C /* RZYSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6F58FBA1E6E9EC200919A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F58FA31E6E9EC200919A1C /* RZYS */;
+			targetProxy = F6F58FB91E6E9EC200919A1C /* PBXContainerItemProxy */;
+		};
+		F6F58FC51E6E9EC200919A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F58FA31E6E9EC200919A1C /* RZYS */;
+			targetProxy = F6F58FC41E6E9EC200919A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6F58FCA1E6E9EC200919A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F58FCB1E6E9EC200919A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F58FCD1E6E9EC200919A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CDA5B1A8B2B5D8C8723082 /* Pods-RZYS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RZYS/RZYS.entitlements;
+				DEVELOPMENT_TEAM = 8KY3JM7B8C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = RZYS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RZYS/resource/thirdPath/BPush",
+					"$(PROJECT_DIR)/RZYS/resource/thirdPath/XGPush",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"BBBadgeBarButtonItem\"",
+					"-framework",
+					"\"DrawerController\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"YLGIFImage\"",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rozte.rzysd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/roz-ios/Desktop/RZYS/RZYS/RZYS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F6F58FCE1E6E9EC200919A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31917650593B7281734665F8 /* Pods-RZYS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RZYS/RZYS.entitlements;
+				DEVELOPMENT_TEAM = 8KY3JM7B8C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = RZYS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RZYS/resource/thirdPath/BPush",
+					"$(PROJECT_DIR)/RZYS/resource/thirdPath/XGPush",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"BBBadgeBarButtonItem\"",
+					"-framework",
+					"\"DrawerController\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"YLGIFImage\"",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rozte.rzysd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/roz-ios/Desktop/RZYS/RZYS/RZYS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F6F58FD01E6E9EC200919A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WEQ78KTX5V;
+				INFOPLIST_FILE = RZYSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rozte.RZYSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZYS.app/RZYS";
+			};
+			name = Debug;
+		};
+		F6F58FD11E6E9EC200919A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WEQ78KTX5V;
+				INFOPLIST_FILE = RZYSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rozte.RZYSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZYS.app/RZYS";
+			};
+			name = Release;
+		};
+		F6F58FD31E6E9EC200919A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WEQ78KTX5V;
+				INFOPLIST_FILE = RZYSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rozte.RZYSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RZYS;
+			};
+			name = Debug;
+		};
+		F6F58FD41E6E9EC200919A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WEQ78KTX5V;
+				INFOPLIST_FILE = RZYSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rozte.RZYSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RZYS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F58F9F1E6E9EC200919A1C /* Build configuration list for PBXProject "RZYS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F58FCA1E6E9EC200919A1C /* Debug */,
+				F6F58FCB1E6E9EC200919A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F58FCC1E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F58FCD1E6E9EC200919A1C /* Debug */,
+				F6F58FCE1E6E9EC200919A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F58FCF1E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F58FD01E6E9EC200919A1C /* Debug */,
+				F6F58FD11E6E9EC200919A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F58FD21E6E9EC200919A1C /* Build configuration list for PBXNativeTarget "RZYSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F58FD31E6E9EC200919A1C /* Debug */,
+				F6F58FD41E6E9EC200919A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F58F9C1E6E9EC200919A1C /* Project object */;
+}

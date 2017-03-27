@@ -1,0 +1,6 @@
+framework module Pods_RZYS {
+  umbrella header "Pods-RZYS-umbrella.h"
+
+  export *
+  module * { export * }
+}
